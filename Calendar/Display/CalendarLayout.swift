@@ -8,6 +8,12 @@
 
 import UIKit
 
+// MARK: CalendarLayoutDataSource
+protocol CalendarLayoutDataSource: class {
+    var numberOfColumns: Int { get }
+    func contentTypeForCell(at indexPath: IndexPath) -> CalendarContent?
+}
+
 class CalendarLayout: UICollectionViewLayout {
     weak var dataSource: CalendarLayoutDataSource?
     

@@ -8,8 +8,10 @@
 
 import UIKit
 
-protocol CalendarLayoutDataSource: class {
-    var numberOfColumns: Int { get }
-    func contentTypeForCell(at indexPath: IndexPath) -> CalendarContent?
+protocol CalendarDelegate: class {
+    func calendarView(_ calendarView: CalendarView, didSelectDate date: Date)
 }
 
+protocol CalendarDataSource: class {
+    func numberOfEventsForDate(date: Date) -> Int
+}

@@ -78,7 +78,6 @@ extension Calendar {
             lst = CalendarCore.calendar.date(byAdding: (weeks * Calendar.numDaysInWeek).days, to: fst)!
         }
         let components = dateComponents([.day], from: fst, to: lst)
-        print(components)
         var dates = [Date]()
         
         for i in 0..<components.day! {
@@ -117,13 +116,6 @@ extension Calendar {
         }
         if lastWeek.count > 0 {
             grid.append(lastWeek)
-        }
-
-        for week in grid {
-            let strWeek = week.reduce("", {
-                $0 + "[\($1.day)]"
-            })
-            print(strWeek)
         }
         return grid
     }

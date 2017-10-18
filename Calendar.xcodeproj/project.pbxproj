@@ -40,8 +40,6 @@
 		A588EFE51F97E51E002DD64E /* CalendarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588EFC41F97E51E002DD64E /* CalendarData.swift */; };
 		A588EFE61F97E51E002DD64E /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588EFC51F97E51E002DD64E /* Protocols.swift */; };
 		A588EFE71F97E51E002DD64E /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A588EFC51F97E51E002DD64E /* Protocols.swift */; };
-		A588EFF71F97E53F002DD64E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A588EFE81F97E53F002DD64E /* Info.plist */; };
-		A588EFF81F97E53F002DD64E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A588EFE81F97E53F002DD64E /* Info.plist */; };
 		A588EFF91F97E53F002DD64E /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A588EFE91F97E53F002DD64E /* Calendar.storyboard */; };
 		A588EFFA1F97E53F002DD64E /* Calendar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A588EFE91F97E53F002DD64E /* Calendar.storyboard */; };
 		A588EFFB1F97E53F002DD64E /* Icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A588EFEC1F97E53F002DD64E /* Icons.ttf */; };
@@ -56,6 +54,7 @@
 		A588F0091F97E560002DD64E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A588F0071F97E560002DD64E /* Assets.xcassets */; };
 		A588F00B1F97E567002DD64E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A588F00A1F97E567002DD64E /* Images.xcassets */; };
 		A588F00C1F97E567002DD64E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A588F00A1F97E567002DD64E /* Images.xcassets */; };
+		A588F00D1F97F065002DD64E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A588EFA81F97E4C5002DD64E /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -318,7 +317,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A588EFF71F97E53F002DD64E /* Info.plist in Resources */,
 				A588F0031F97E53F002DD64E /* click.wav in Resources */,
 				A588EFCE1F97E51E002DD64E /* CalendarView.xib in Resources */,
 				A588EFDA1F97E51E002DD64E /* DayNameCell.xib in Resources */,
@@ -339,6 +337,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A588F00D1F97F065002DD64E /* Info.plist in Resources */,
 				A588EFCF1F97E51E002DD64E /* CalendarView.xib in Resources */,
 				A588F00C1F97E567002DD64E /* Images.xcassets in Resources */,
 				A588EFD31F97E51E002DD64E /* ArrowCell.xib in Resources */,
@@ -351,7 +350,6 @@
 				A588EFFC1F97E53F002DD64E /* Icons.ttf in Resources */,
 				A588F0061F97E53F002DD64E /* plink.wav in Resources */,
 				A588EFDB1F97E51E002DD64E /* DayNameCell.xib in Resources */,
-				A588EFF81F97E53F002DD64E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
