@@ -11,7 +11,7 @@ import UIKit
 struct Config {
     struct Main {
         static let firstDayOfWeek = 1
-        static let dayOffSet: Set<Int> = Set<Int>([3, 4])
+        static let dayOffs: Set<Int> = Set<Int>([3, 4])
     }
     
     struct Metrics {

@@ -60,7 +60,7 @@ class CalendarData {
             weekdayNames = [CalendarContent]()
             let names = CalendarCore.calendar.shortWeekdayNames
             for i in 0..<names.count {
-                weekdayNames.append(.weekday(WeekdayDisplayData(title: names[i], isDayOff: Config.Main.dayOffSet.contains(i))))
+                weekdayNames.append(.weekday(WeekdayDisplayData(title: names[i], isDayOff: Config.Main.dayOffs.contains(i))))
             }
             
             days = CalendarData.daysFor(seed: seedDate)
